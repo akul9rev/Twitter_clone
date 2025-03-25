@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Left Sidebar -->
+    <div class="sidebar">
+        <!-- Logo Section -->
+        <h1 class="logo">
+            <img src="logo.png" alt="Twitter Logo">
+            <span>Twitter</span>
+        </h1>
+
+        <!-- Navigation Menu -->
+        <ul>
+            <li>🏠 Home</li>
+            <li>🔍 Explore</li>
+            <li>🔔 Notifications</li>
+            <li>📩 Messages</li>
+            <li>📁 Profile</li>
+        </ul>
+
+        <!-- Tweet Button -->
+        <button class="tweet-btn">Tweet</button>
+    </div>
+    
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <!-- Tweet Composition Box -->
+        <div class="tweet-box">
+            <img src="profile2.jpeg" class="profile-pic small" alt="Profile">
+            <input type="text" placeholder="What's happening?">
+            <button class="tweet-btn">Tweet</button>
+        </div>
+        
+        <!-- Tweet Feed -->
+        <div class="tweets">
+            <!-- Tweet 1 -->
+            <div class="tweet">
+                <div class="tweet-header">
+                    <img src="profile1.jpeg" class="profile-pic" alt="User1">
+                    <div class="user-info">
+                        <span class="name">Astro Gal</span>
+                        <span class="handle">@astro_gal</span>
+                    </div>
+                </div>
+                <div class="tweet-content">
+                    Did you know that octopuses have three hearts? 🐙💙
+                </div>
+                <div class="tweet-actions">
+                    <div class="tweet-action">
+                        <i class="far fa-comment"></i>
+                        <span>24</span>
+                    </div>
+                    <div class="tweet-action retweet">
+                        <i class="fas fa-retweet"></i>
+                        <span>152</span>
+                    </div>
+                    <div class="tweet-action like">
+                        <i class="far fa-heart"></i>
+                        <span>1.2K</span>
+                    </div>
+                    <div class="tweet-action">
+                        <i class="far fa-share-square"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tweet 2 -->
+            <div class="tweet">
+                <div class="tweet-header">
+                    <img src="profile.jpeg" class="profile-pic" alt="User2">
+                    <div class="user-info">
+                        <span class="name">Music Vibes</span>
+                        <span class="handle">@musicvibes</span>
+                    </div>
+                </div>
+                <div class="tweet-content">
+                    Playboi Carti just dropped his new album! 🔥🔥
+                </div>
+                <div class="tweet-actions">
+                    <div class="tweet-action">
+                        <i class="far fa-comment"></i>
+                        <span>186</span>
+                    </div>
+                    <div class="tweet-action retweet">
+                        <i class="fas fa-retweet"></i>
+                        <span>2.4K</span>
+                    </div>
+                    <div class="tweet-action like">
+                        <i class="far fa-heart"></i>
+                        <span>8.7K</span>
+                    </div>
+                    <div class="tweet-action">
+                        <i class="far fa-share-square"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tweet 3 -->
+            <div class="tweet">
+                <div class="tweet-header">
+                    <img src="images.jpeg" class="profile-pic" alt="User3">
+                    <div class="user-info">
+                        <span class="name">Dev Wizard</span>
+                        <span class="handle">@dev_wizard</span>
+                    </div>
+                </div>
+                <div class="tweet-content">
+                    Finally launched my first web app! 🚀
+                </div>
+                <div class="tweet-actions">
+                    <div class="tweet-action">
+                        <i class="far fa-comment"></i>
+                        <span>45</span>
+                    </div>
+                    <div class="tweet-action retweet">
+                        <i class="fas fa-retweet"></i>
+                        <span>234</span>
+                    </div>
+                    <div class="tweet-action like">
+                        <i class="far fa-heart"></i>
+                        <span>1.5K</span>
+                    </div>
+                    <div class="tweet-action">
+                        <i class="far fa-share-square"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tweet 4 -->
+            <div class="tweet">
+                <div class="tweet-header">
+                    <img src="girl.png" class="profile-pic" alt="User4">
+                    <div class="user-info">
+                        <span class="name">Foodie Guy</span>
+                        <span class="handle">@foodie_guy</span>
+                    </div>
+                </div>
+                <div class="tweet-content">
+                    Pizza or burgers? What's your go-to comfort food? 🍕🍔
+                </div>
+                <div class="tweet-actions">
+                    <div class="tweet-action">
+                        <i class="far fa-comment"></i>
+                        <span>156</span>
+                    </div>
+                    <div class="tweet-action retweet">
+                        <i class="fas fa-retweet"></i>
+                        <span>789</span>
+                    </div>
+                    <div class="tweet-action like">
+                        <i class="far fa-heart"></i>
+                        <span>3.2K</span>
+                    </div>
+                    <div class="tweet-action">
+                        <i class="far fa-share-square"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tweet 5 -->
+            <div class="tweet">
+                <div class="tweet-header">
+                    <img src="cat.png" class="profile-pic" alt="User5">
+                    <div class="user-info">
+                        <span class="name">Sports Fan</span>
+                        <span class="handle">@sportsfan99</span>
+                    </div>
+                </div>
+                <div class="tweet-content">
+                    What a game last night! That final goal was insane! ⚽🔥
+                </div>
+                <div class="tweet-actions">
+                    <div class="tweet-action">
+                        <i class="far fa-comment"></i>
+                        <span>89</span>
+                    </div>
+                    <div class="tweet-action retweet">
+                        <i class="fas fa-retweet"></i>
+                        <span>567</span>
+                    </div>
+                    <div class="tweet-action like">
+                        <i class="far fa-heart"></i>
+                        <span>2.8K</span>
+                    </div>
+                    <div class="tweet-action">
+                        <i class="far fa-share-square"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tweet 6 -->
+            <div class="tweet">
+                <div class="tweet-header">
+                    <img src="omni.jpg" class="profile-pic" alt="User6">
+                    <div class="user-info">
+                        <span class="name">Tech Geek</span>
+                        <span class="handle">@tech_geek</span>
+                    </div>
+                </div>
+                <div class="tweet-content">
+                    The new iPhone is finally here! Thoughts? 📱
+                </div>
+                <div class="tweet-actions">
+                    <div class="tweet-action">
+                        <i class="far fa-comment"></i>
+                        <span>245</span>
+                    </div>
+                    <div class="tweet-action retweet">
+                        <i class="fas fa-retweet"></i>
+                        <span>1.1K</span>
+                    </div>
+                    <div class="tweet-action like">
+                        <i class="far fa-heart"></i>
+                        <span>4.5K</span>
+                    </div>
+                    <div class="tweet-action">
+                        <i class="far fa-share-square"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tweet 7 -->
+            <div class="tweet">
+                <div class="tweet-header">
+                    <img src="saku.jpg" class="profile-pic" alt="User7">
+                    <div class="user-info">
+                        <span class="name">Movie Buff</span>
+                        <span class="handle">@moviebuff</span>
+                    </div>
+                </div>
+                <div class="tweet-content">
+                    Watched the new sci-fi movie. Mind-blowing visuals! 🎬✨
+                </div>
+                <div class="tweet-actions">
+                    <div class="tweet-action">
+                        <i class="far fa-comment"></i>
+                        <span>167</span>
+                    </div>
+                    <div class="tweet-action retweet">
+                        <i class="fas fa-retweet"></i>
+                        <span>890</span>
+                    </div>
+                    <div class="tweet-action like">
+                        <i class="far fa-heart"></i>
+                        <span>3.7K</span>
+                    </div>
+                    <div class="tweet-action">
+                        <i class="far fa-share-square"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Sidebar -->
+    <div class="trends">
+        <!-- Trending Section -->
+        <div class="happening">
+            <h2>Trends for you</h2>
+            <!-- Trend 1 -->
+            <div class="trend-item">
+                <div class="trend-header">
+                    <span>Technology</span>
+                </div>
+                <p class="hashtag">#WebDevelopment</p>
+                <p class="tweet-count">50.4K Tweets</p>
+            </div>
+            <!-- Trend 2 -->
+            <div class="trend-item">
+                <div class="trend-header">
+                    <span>Programming</span>
+                </div>
+                <p class="hashtag">#CodingLife</p>
+                <p class="tweet-count">32.1K Tweets</p>
+            </div>
+            <!-- Trend 3 -->
+            <div class="trend-item">
+                <div class="trend-header">
+                    <span>Technology</span>
+                </div>
+                <p class="hashtag">#TechNews</p>
+                <p class="tweet-count">28.7K Tweets</p>
+            </div>
+            <!-- Trend 4 -->
+            <div class="trend-item">
+                <div class="trend-header">
+                    <span>Development</span>
+                </div>
+                <p class="hashtag">#Programming</p>
+                <p class="tweet-count">25.3K Tweets</p>
+            </div>
+            <!-- Trend 5 -->
+            <div class="trend-item">
+                <div class="trend-header">
+                    <span>Tech</span>
+                </div>
+                <p class="hashtag">#Developer</p>
+                <p class="tweet-count">22.9K Tweets</p>
+            </div>
+        </div>
+
+        <!-- Who to Follow Section -->
+        <div class="follow-section">
+            <h2>Who to follow</h2>
+            <!-- User 1 -->
+            <div class="follow-suggestion">
+                <img src="download.jpeg" alt="Profile" class="profile-pic">
+                <div class="user-info">
+                    <div class="name">Sarah Johnson</div>
+                    <div class="handle">@sarahj</div>
+                </div>
+                <button class="follow-btn">Follow</button>
+            </div>
+            <!-- User 2 -->
+            <div class="follow-suggestion">
+                <img src="random.png" alt="Profile" class="profile-pic">
+                <div class="user-info">
+                    <div class="name">Mike Chen</div>
+                    <div class="handle">@mikechen</div>
+                </div>
+                <button class="follow-btn">Follow</button>
+            </div>
+            <!-- User 3 -->
+            <div class="follow-suggestion">
+                <img src="beaut.jpeg" alt="Profile" class="profile-pic">
+                <div class="user-info">
+                    <div class="name">Emma Davis</div>
+                    <div class="handle">@emmad</div>
+                </div>
+                <button class="follow-btn">Follow</button>
+            </div>
+            <!-- User 4 -->
+            <div class="follow-suggestion">
+                <img src="alex.jpg" alt="Profile" class="profile-pic">
+                <div class="user-info">
+                    <div class="name">Alex Wong</div>
+                    <div class="handle">@alexw</div>
+                </div>
+                <button class="follow-btn">Follow</button>
+            </div>
+            <!-- User 5 -->
+            <div class="follow-suggestion">
+                <img src="lisa.jpg" alt="Profile" class="profile-pic">
+                <div class="user-info">
+                    <div class="name">Lisa Park</div>
+                    <div class="handle">@lisap</div>
+                </div>
+                <button class="follow-btn">Follow</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
